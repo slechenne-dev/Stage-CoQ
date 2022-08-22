@@ -1,8 +1,4 @@
-(* An initial attempt at universal algebra in Coq.
-   Author: Andrej Bauer <Andrej.Bauer@andrej.com>
-
-   If someone knows of a less painful way of doing this, please let me know.
-
+(*
    We would like to define the notion of an algebra with given operations satisfying given
    equations. For example, a group has of three operations (unit, multiplication, inverse)
    and five equations (associativity, unit left, unit right, inverse left, inverse right).
